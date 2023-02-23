@@ -5,6 +5,7 @@ class Calculator:
     """
     A simple calculator GUI that allows users to perform basic arithmetic calculations.
     """
+
     
     def __init__(self, master):
         """
@@ -14,7 +15,7 @@ class Calculator:
         """
         self.master = master
         master.title("Calculator")
-        master.iconbitmap('C:/Users/Alex/Desktop/nyancat.png')
+        # master.iconbitmap('C:/Users/Alex/Desktop/nyancat.png')
         
         # Create a StringVar to store the calculator display
         self.result = tk.StringVar()
